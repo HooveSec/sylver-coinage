@@ -1,0 +1,1 @@
+even3 validated 2026-10-18 23:08:29 EDT: regress3 (lane config RAMIDX+ETC+KILLER) 210 literature positions: 147 agree, 0 contradictions, 63 timeouts at 20 s, pfail 0; anchors {12,14,16} P (=> {16,12} N via 14), {10,16,24} P (=> {16,24} N via 10), {16,12} N; {16,18} identical node count to even2 (2,233,474); store16 format compat both ways

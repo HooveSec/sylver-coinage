@@ -1,0 +1,36 @@
+cycle_200001_8_10_12_14	SAME	A=0(0s)	B=0(0s)	C=0(0s,evict=0)	EXACT CYCLE: state at n=29 equals state at n=21 => period 8 (window 5 levels, 18 states, 5 S)
+cycle_200001_8_10_22	SAME	A=0(0s)	B=0(0s)	C=0(0s,evict=0)	EXACT CYCLE: state at n=57 equals state at n=49 => period 8 (window 9 levels, 50 states, 8 S)
+cycle_200001_8_12_18_22	SAME	A=0(0s)	B=0(0s)	C=0(0s,evict=0)	EXACT CYCLE: state at n=87 equals state at n=47 => period 40 (window 9 levels, 69 states, 11 S)
+cycle_200001_8_12_26_30	SAME	A=0(0s)	B=0(1s)	C=0(0s,evict=0)	EXACT CYCLE: state at n=331 equals state at n=91 => period 240 (window 13 levels, 156 states, 17 S)
+cycle_200001_8_12_34_38	SAME	A=0(1s)	B=0(1s)	C=0(1s,evict=3)	EXACT CYCLE: state at n=1543 equals state at n=823 => period 720 (window 17 levels, 279 states, 23 S)
+check_1201_8_10_22	SAME	A=0(10s)	B=0(10s)	C=0(12s,evict=0)	check done up to 1201 mismatches=0
+check_1201_8_14	SAME/C_rc124	A=0(135s)	B=0(132s)	C=124(633s,evict=16)	check done up to 1201 mismatches=0
+check_1201_10_16_24	SAME	A=0(277s)	B=0(291s)	C=0(290s,evict=0)	check done up to 1201 mismatches=0
+check_1201_12_16_22	A_rc124/SAME/C_rc124/B_rc124	A=124(600s)	B=124(600s)	C=124(642s,evict=5)	
+check_1201_8_12	SAME/C_rc124	A=0(403s)	B=0(531s)	C=124(600s,evict=1)	check done up to 1201 mismatches=0
+check_1201_4_6	SAME	A=0(3s)	B=0(2s)	C=0(2s,evict=0)	check done up to 1201 mismatches=0
+first_60001_12_16_20_34_42	SAME	A=0(11s)	B=0(15s)	C=0(11s,evict=0)	odd winning move 431
+first_60001_12_16_20_42_50	SAME	A=0(49s)	B=0(40s)	C=0(43s,evict=0)	odd winning move 537
+first_60001_8_30_34_52	SAME	A=0(15s)	B=0(13s)	C=0(14s,evict=0)	odd winning move 393
+first_60001_8_30_34	A_rc134/SAME	A=134(71s)	B=0(378s)	C=0(541s,evict=122)	
+first_100001_16_22_26_28_30_34_36	SAME	A=0(39s)	B=0(31s)	C=0(34s,evict=1)	odd winning move 649
+first_100001_14_20_24_26_30_32	SAME	A=0(10s)	B=0(11s)	C=0(14s,evict=0)	odd winning move 645
+first_100001_14_16_24_26_34	SAME	A=0(8s)	B=0(7s)	C=0(8s,evict=0)	odd winning move 373
+first_100001_14_26_30_32_36_38	A_rc134/SAME/C_rc124	A=134(171s)	B=0(186s)	C=124(600s,evict=7)	
+first_100001_14_18_26_38	SAME	A=0(65s)	B=0(53s)	C=0(53s,evict=1)	odd winning move 501
+first_100001_16_22_24_26_28_30_34	A_rc134/SAME/C_rc124/B_rc124	A=134(56s)	B=124(600s)	C=124(600s,evict=192)	
+first_100001_14_22_26	A_rc134/SAME/C_rc124	A=134(431s)	B=0(451s)	C=124(600s,evict=4)	
+first_100001_16_24_26_30_34_36_38	SAME/C_rc124	A=0(54s)	B=0(59s)	C=124(600s,evict=18)	odd winning move 537
+first_100001_16_20_26_30_34_38	SAME	A=0(39s)	B=0(50s)	C=0(347s,evict=1)	odd winning move 423
+first_100001_12_28_44_46_66	A_rc124/SAME/C_rc124/B_rc124	A=124(777s)	B=124(919s)	C=124(658s,evict=9)	
+first_100001_12_26_34_40_42	SAME/C_rc124	A=0(168s)	B=0(154s)	C=124(601s,evict=7)	odd winning move 671
+first_100001_12_28_44_46_62_78	A_rc124/SAME/C_rc124/B_rc124	A=124(600s)	B=124(600s)	C=124(600s,evict=9)	
+first_100001_12_16_20_22_26_30	SAME	A=0(1s)	B=0(0s)	C=0(0s,evict=0)	odd winning move 183
+first_100001_16_18_20_24_28_30	SAME	A=0(5s)	B=0(6s)	C=0(1s,evict=0)	odd winning move 125
+first_100001_16_20_28_30_34_38_42	SAME	A=0(30s)	B=0(26s)	C=0(26s,evict=0)	odd winning move 109
+first_100001_16_20_30_34_38_42	SAME/C_rc124	A=0(117s)	B=0(107s)	C=124(600s,evict=6)	odd winning move 131
+first_100001_16_20_38_42_44_46	A_rc124/SAME/C_rc124/B_rc124	A=124(600s)	B=124(600s)	C=124(652s,evict=5)	
+first_100001_8_34_36_62	SAME	A=0(38s)	B=0(40s)	C=0(40s,evict=1)	odd winning move 647
+first_100001_16_26_88_92_98	A_rc134/SAME/C_rc124/B_rc124	A=134(217s)	B=124(600s)	C=124(600s,evict=34)	
+first_100001_16_26_38_66_72	A_rc134/SAME/C_rc124/B_rc124	A=134(241s)	B=124(601s)	C=124(600s,evict=40)	
+first_100001_16_26_38_44_50_62	A_rc124/SAME/C_rc124/B_rc124	A=124(600s)	B=124(653s)	C=124(600s,evict=44)	

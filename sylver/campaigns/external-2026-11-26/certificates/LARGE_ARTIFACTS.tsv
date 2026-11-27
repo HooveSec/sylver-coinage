@@ -1,0 +1,11 @@
+bytes	sha256(file)	records(|Q|)	box path	note
+514520288	63f41de03c1f3f53dd28a46c7c84d39ce4fbee65d99e9ab69a34242ac3b6327e	32157514	/workspace/sylver/fin3/j_38_68_72_257.bin	fin3 P-journal (= Q) for the reply-38 case
+1105134208	0890731437d4f949350bac67a615f9e5a13b3aed3b936f617465d16ffe0c48b6	69070884	/workspace/sylver/fin3/j_38_72_100_245.bin	fin3 P-journal (= Q) for the reply-38 case
+800539840	66524cc276f45ad5907cf07ea38686d89b2cb5221d90c4de91f1ffd900f5ed3d	50033736	/workspace/sylver/fin3/j_38_72_106_137.bin	fin3 P-journal (= Q) for the reply-38 case
+1277837840	f74f0953c8b35205c0dcb8fa427eb2aeed61f51a3403e4cd0008be7ac9b04eec	79864861	/workspace/sylver/fin3/j_38_72_116_229.bin	fin3 P-journal (= Q) for the reply-38 case
+759643344	73c2a7985caef928b5596ef6e4e43058972c9bf09645722518eaa5badb5db7cb	47477705	/workspace/sylver/fin3/j_38_72_119_154.bin	fin3 P-journal (= Q) for the reply-38 case
+862192560	55b8c8dbb9320dada45446be859b87aa95cd2776d01905a16676f5be33e7200f	53887031	/workspace/sylver/fin3/j_38_72_78_367.bin	fin3 P-journal (= Q) for the reply-38 case
+622818864	6ad3f85ae66c1cbdf1d66747fa91141745018db0f9c9db68b47165fc1e3dc111	38926175	/workspace/sylver/fin3/j_38_72_84_139.bin	fin3 P-journal (= Q) for the reply-38 case
+1105134208	027ba9db60cd60db13e40f6d32a1f0449f4656556e1850cf28c71a73ecb239ec	69070884	/workspace/sylver/certq/q100/q_38_72_100_245.bin	sorted-unique Q for 100+245 (receipt copy); content hash sha256(header+keys, no pad)=178f957cc754592d1ef67035a87ae320d8bd20f8ec56b982fddc73e119072e63
+516266064	0af6aa5689c5244cd08d7ff6ce8cce4d6eaf0cf9531884dca379b15e0b4f601e	32266625	/workspace/sylver/certq/ender0/qprime_16_38_68_72_257.bin	Q' (ender-free) 68+257
+1109395440	88abb42df5796a9759898885d11bbfeef329a6d1ffa37cfa202707928187c538	69337211	/workspace/sylver/certq/ender0_100/qprime_16_38_72_100_245.bin	Q' (ender-free) 100+245; file hash recorded at creation matches

@@ -1,0 +1,1 @@
+OK root=[16,38,72,84,139] F=245 M=16 |Q|=38926175 dup=0 children=2621908407 probes=35208373526 terminal_w=77852350 enders=89 => root is P (uses the ender theorem)

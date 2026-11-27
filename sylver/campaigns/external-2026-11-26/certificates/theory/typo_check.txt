@@ -1,0 +1,8 @@
+== rust solve +25
+[14, 22, 24, 32, 34, 40, 25] F=55 P nodes=18010 memo=18010 0.04s
+== vchk -f +25
+FINITE {14,22,24,32,34,40,25} P move=0 nodes=18010 clears=0
+== rust solve +251
+[14, 22, 24, 32, 34, 40, 251] F=281 N nodes=171550 memo=171550 2.74s
+== vchk -f +251
+FINITE {14,22,24,32,34,40,251} N move=25 nodes=171550 clears=0

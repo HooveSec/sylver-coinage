@@ -1,0 +1,46 @@
+2026-10-18 21:50:48 EDT START solve_16_23_36: ../solve 16 23 36
+  [16, 23, 36] F=145 P nodes=2031069 memo=2031069 16.44s
+DONE solve_16_23_36 rc=0 17s
+2026-10-18 21:51:05 EDT START vchkf_16_23_36: env VMB=1200 ../verify/vchk -f 16 23 36
+  FINITE {16,23,36} P move=0 nodes=2031069 clears=0
+DONE vchkf_16_23_36 rc=0 8s
+2026-10-18 21:51:13 EDT START solve_11_16_58: ../solve 11 16 58
+  [11, 16, 58] F=111 P nodes=41047 memo=41047 0.23s
+DONE solve_11_16_58 rc=0 0s
+2026-10-18 21:51:13 EDT START vchkf_11_16_58: env VMB=1200 ../verify/vchk -f 11 16 58
+  FINITE {11,16,58} P move=0 nodes=41047 clears=0
+DONE vchkf_11_16_58 rc=0 0s
+2026-10-18 21:51:13 EDT START solve_16_17_90: ../solve 16 17 90
+  [16, 17, 90] F=159 P nodes=1748903 memo=1748903 13.63s
+DONE solve_16_17_90 rc=0 14s
+2026-10-18 21:51:27 EDT START vchkf_16_17_90: env VMB=1200 ../verify/vchk -f 16 17 90
+  FINITE {16,17,90} P move=0 nodes=1748903 clears=0
+DONE vchkf_16_17_90 rc=0 7s
+2026-10-18 21:51:34 EDT START solve_13_16_140: ../solve 13 16 140
+  [13, 16, 140] F=163 P nodes=197139 memo=197139 1.09s
+DONE solve_13_16_140 rc=0 1s
+2026-10-18 21:51:35 EDT START vchkf_13_16_140: env VMB=1200 ../verify/vchk -f 13 16 140
+  FINITE {13,16,140} P move=0 nodes=197139 clears=0
+DONE vchkf_13_16_140 rc=0 1s
+2026-10-18 21:51:36 EDT START solve_16_21_156: ../solve 16 21 156
+  memory allocation of 1107296272 bytes failed
+DONE solve_16_21_156 rc=134 225s
+2026-10-18 21:55:21 EDT START vchkf_16_21_156: env VMB=1200 ../verify/vchk -f 16 21 156
+  FINITE {16,21,156} P move=0 nodes=16035277 clears=0
+DONE vchkf_16_21_156 rc=0 99s
+2026-10-18 21:57:00 EDT START vchk_8_14: env VMB=1200 ../verify/vchk 8 14
+  G2 {8,14} quiet=1 U move=0 nodes=2120 clears=0 lemmas_used=none
+DONE vchk_8_14 rc=0 0s
+2026-10-18 21:57:00 EDT START vchk_12_16_22: env VMB=1200 ../verify/vchk 12 16 22
+  G2 {12,16,22} quiet=1 U move=0 nodes=26129 clears=0 lemmas_used=none
+DONE vchk_12_16_22 rc=0 0s
+2026-10-18 21:57:00 EDT START vchk_16_20_34: env VMB=1200 ../verify/vchk 16 20 34
+  G2 {16,20,34} quiet=1 U move=0 nodes=4469806 clears=0 lemmas_used=none
+DONE vchk_16_20_34 rc=0 20s
+2026-10-18 21:57:20 EDT START vchk_10_16_24: env VMB=1200 ../verify/vchk 10 16 24
+  G2 {10,16,24} quiet=1 U move=0 nodes=10978 clears=0 lemmas_used=none
+DONE vchk_10_16_24 rc=0 0s
+2026-10-18 21:57:20 EDT START vchk_16_20_46: env VMB=1200 ../verify/vchk 16 20 46
+  G2 {16,20,46} quiet=1 U move=0 nodes=7747434 clears=0 lemmas_used=none
+DONE vchk_16_20_46 rc=0 32s
+2026-10-18 21:57:52 EDT QUEUE COMPLETE

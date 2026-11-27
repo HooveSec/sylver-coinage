@@ -1,0 +1,14 @@
+# Verification track: milestone 1 (2026-10-16)
+- known_blok.tsv: 2615 positions (115 P) parsed from Blok 6-16 Tables, g=2 (2021), and 14-even (2022). Parser: parse_blok.py.
+- Skipped: the duplicated {14,32,34,50} table header in the 14 paper (14-even L504; probably meant to be {14,32,34}).
+- vchk.c is an independent C bitset brute force. Reduction: Quiet End Theorem (QET). Optional VLEM P-lemmas, never the position under test.
+- Finite engine: 40/40 agreement with a Python brute force.
+- 6-16 finite rows: 372/372 agree with Blok, and every listed winning move was verified to give a P child.
+- Even rows: 55 P rows (8 P, 0 contradictions, rest U/TIMEOUT) and a sample of 200 N rows (115 N, 0 contradictions).
+- Literature error: {14,22,24,32,34,40} (14-even §5.2, L203) lists 251, but 251 loses to the reply 25. {..,25} is a finite P position, and 25 is a winning move.
+- results_even: {16,6} N via 7 and {16,10} N via 9 (unconditional, both match Blok 6-16). {16,18} N via 5 (unconditional).
+- {16,14}: N via 12 (only conditional on lemmas, matches Blok's [8,12]).
+- {16,22}: unconditional run in progress (v_even.txt).
+- 2026-10-18 (theory worker): Blok typo CONFIRMED with two engines: in {14,22,24,32,34,40}, 25 is the (only odd ≤401) winning move; 251 loses to 25 (theory/typo_check.txt, typo_oddP.txt).
+- vchk + QET with five pattern2-cycle-proven lemmas ({8,10,12,14}, {8,10,22}, {8,12,18,22}, {8,12,26,30}, {8,12,34,38}): {8,14} P, {10,16,24} P, {12,16,22} P, {16,20,46} P → {16,14}, {16,24}, {16,22}, {16,20} N by a second method. Lemma-free vchk gives U on all of them (theory/second_method.log, vchk_cyclelem.txt).
+- Cilibrasi o16 finite witnesses replayed: {16,23,36}, {11,16,58}, {16,17,90}, {13,16,140}, {16,21,156} all P.

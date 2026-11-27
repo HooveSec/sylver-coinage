@@ -1,0 +1,4 @@
+G2 {16,6} quiet=1 N move=7 nodes=161 clears=0
+G2 {16,10} quiet=1 N move=9 nodes=15088 clears=0
+G2 {16,14} quiet=1 U move=0 nodes=1468829 clears=0
+G2 {16,18} quiet=1 N move=5 nodes=2169880 clears=0

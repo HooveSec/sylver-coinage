@@ -1,0 +1,25 @@
+pass expect=OK got=OK :: /workspace/sylver/certq2/checkq2 j_11_16_58.bin 11 16 58 :: OK root=[11, 16, 58] F=111 M=11 |Q|=1902 dup=0 children=48843 probes=402032 enders=0 => root is P (no ender theorem used)
+pass expect=OK got=OK :: /workspace/sylver/certq2/checkq2 j_16_23_36.bin 16 23 36 :: OK root=[16, 23, 36] F=145 M=16 |Q|=103810 dup=0 children=3572889 probes=37224937 enders=0 => root is P (no ender theorem used)
+pass expect=OK got=OK :: /workspace/sylver/certq2/checkq2 j_16_17_90.bin 16 17 90 :: OK root=[16, 17, 90] F=159 M=16 |Q|=98890 dup=0 children=4251709 probes=53755258 enders=0 => root is P (no ender theorem used)
+pass expect=OK got=OK :: /workspace/sylver/certq2/checkq2 j_13_16_140.bin 13 16 140 :: OK root=[13, 16, 140] F=163 M=13 |Q|=11487 dup=0 children=396198 probes=3974261 enders=0 => root is P (no ender theorem used)
+pass expect=OK got=OK :: /workspace/sylver/certq2/checkq2 j_16_21_156.bin 16 21 156 :: OK root=[16, 21, 156] F=215 M=16 |Q|=619755 dup=0 children=33509265 probes=548297399 enders=0 => root is P (no ender theorem used)
+pass expect=OK got=OK :: /workspace/sylver/certq2/checkq2 pos_terminal.bin 11 16 58 :: OK root=[11, 16, 58] F=111 M=11 |Q|=1903 dup=0 children=48843 probes=402032 enders=0 => root is P (no ender theorem used)
+pass expect=OK got=OK :: /workspace/sylver/certq2/checkq2 pos_dup.bin 11 16 58 :: OK root=[11, 16, 58] F=111 M=11 |Q|=1902 dup=50 children=48843 probes=402032 enders=0 => root is P (no ender theorem used)
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 neg_addN.bin 11 16 58 :: FAIL key 1249 move 19: child has no reply into Q (ENDER=0)
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 neg_noroot.bin 11 16 58 :: FAIL root not in Q
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 neg_drop.bin 11 16 58 :: FAIL key 1 move 6: child has no reply into Q (ENDER=0)
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 neg_badkunz.bin 11 16 58 :: FAIL invalid key (sorted index 218)
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 neg_noroot_contain.bin 11 16 58 :: FAIL invalid key (sorted index 48)
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 neg_termchild.bin 11 16 58 :: FAIL key 1091 move 2 reaches the terminal P position
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 neg_flip.bin 11 16 58 :: FAIL key 1472 move 14: child has no reply into Q (ENDER=0)
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 j_5_16.bin 5 16 :: FAIL root not in Q
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 j_11_16.bin 11 16 :: FAIL root not in Q
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 neg_Nroot_5_16.bin 5 16 :: FAIL key 11 move 17: child has no reply into Q (ENDER=0)
+pass expect=FAIL got=FAIL :: /workspace/sylver/certq2/checkq2 neg_Nroot_11_16.bin 11 16 :: FAIL key 1110 move 57: child has no reply into Q (ENDER=0)
+pass expect=FAIL got=FAIL :: env ENDER=1 /workspace/sylver/certq2/checkq2 neg_Nroot_11_16.bin 11 16 :: FAIL key 1110 move 57: child has no reply into Q
+pass expect=ERROR got=ERROR :: /workspace/sylver/certq2/checkq2 j_11_16_58.bin 11 16 59 :: ERROR journal header does not name this root/M
+pass expect=ERROR got=ERROR :: /workspace/sylver/certq2/checkq2 j_11_16_58.bin 16 26 :: ERROR root gcd != 1: unbounded game, not a finite certificate
+pass expect=ERROR got=ERROR :: /workspace/sylver/certq2/checkq2 j_11_16_58.bin 11 16 :: ERROR journal header does not name this root/M
+pass expect=ERROR got=ERROR :: /workspace/sylver/certq2/checkq2 /nonexistent 11 16 58 :: ERROR cannot open journal
+pass expect=OK got=OK :: env CKPT=/tmp/ck2_test CKSTEP=20000 /workspace/sylver/certq2/checkq2 j_16_23_36.bin 16 23 36 :: OK root=[16, 23, 36] F=145 M=16 |Q|=103810 dup=0 children=3572889 probes=37224937 enders=0 => root is P (no ender theorem used)
+passed=24 wrong=0

@@ -1,0 +1,23 @@
+== cycle 8 10 12 14
+S=[4, 5, 6, 7] t=3 gens=[4, 5, 6, 7]
+reachable states=18 distinct S=5 tmax=3
+EXACT CYCLE: state at n=29 equals state at n=21 => period 8 (window 5 levels, 18 states, 5 S)
+== cycle 8 10 22
+S=[4, 5, 11] t=7 gens=[4, 5, 11]
+reachable states=50 distinct S=8 tmax=7
+EXACT CYCLE: state at n=57 equals state at n=49 => period 8 (window 9 levels, 50 states, 8 S)
+      2     S(t=13) -> U mv=0
+      1 S(t=21) -> U mv=0
+      1    S(t=15) -> U mv=0
+      1     S(t=9) -> U mv=0
+      1      S(t=10) -> U mv=0
+      1       S(t=7) -> U mv=0
+== cycle 8 12 18 22
+reachable states=69 distinct S=11 tmax=7
+EXACT CYCLE: state at n=87 equals state at n=47 => period 40 (window 9 levels, 69 states, 11 S)
+== cycle 8 12 26 30
+reachable states=156 distinct S=17 tmax=11
+EXACT CYCLE: state at n=331 equals state at n=91 => period 240 (window 13 levels, 156 states, 17 S)
+== cycle 8 12 34 38
+reachable states=279 distinct S=23 tmax=15
+EXACT CYCLE: state at n=1543 equals state at n=823 => period 720 (window 17 levels, 279 states, 23 S)

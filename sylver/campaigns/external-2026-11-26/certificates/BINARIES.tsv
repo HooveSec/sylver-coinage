@@ -1,0 +1,9 @@
+sha256	bytes	binary (box path)	used for
+55ea26d157e81b31c65785fa1c87cdee372fb523906615bb6e72edd432a612d6	21640	/workspace/sylver/certq/checkq	checkq ENDER=1 on 68+257 and 100+245; ENDER=0 on 68+257 Q'
+317c9f70e3d0ec7e111e369b4864e3471f3fc89097ebf94bd36c6566775860dd	21792	/workspace/sylver/certq/checkq_lm	checkq_lm ENDER=1 on 84+139, 78+367; ENDER=0 on 100+245 Q'
+ca16990996f5783139628bebd71dc0723979c09ac1bbbde60d77b53f727807c6	11533256	/workspace/sylver/certq2/checkq2	all checkq2 runs
+4dfb19f2c02baa37b482ef9c88d038d18258df8d76c76fd32cd9ea83466b89df	11518296	/workspace/sylver/fin3/fin3	fin3 reply-38 runs and g4lane odd sweeps (binary present now; see REVIEW_NOTES)
+25a080f15822ae2241691119d72919bdb70be823995ba111c858206d027809fb	11721184	/workspace/sylver/even3/even3	even3 / g4lane even sweeps
+b2c3ae15c93e07d148a14ce3accfe8e858b8a2e9eab222f0e3ffbbc5913b535b	21664	/workspace/sylver/verify/vchk	vchk second-method runs
+ee39c6215df05f628107bec15ad7800182ece2f0361216c6025f77c84f164e69	11459696	/workspace/sylver/solve	solve.rs second engine
+79384ad3bea08d92e797502ea1705e77a846dfd7e7f089ca083311d9a0accf69	11518488	/workspace/sylver/fin3/fin3.bin.bak-20261023	fin3 build before 2026-10-23 (fin3 runs started before then: 68+257, 100+245, 78+367, start of 116+229). The 2026-10-23 change only streams the journal reload in 16 MB chunks; the game logic is unchanged (diff fin3_pre20261023.rs fin3.rs)
